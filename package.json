@@ -1,0 +1,39 @@
+{
+  "name": "thrift-zookeeper-server-set",
+  "version": "0.1.0",
+  "description": "A module that integrates zookeeper with thrift interfaces with connection pooling logic to make them more robust",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjoshi1988/thrift-zookeeper-server-set.git"
+  },
+  "keywords": [
+    "thrift",
+    "zookeeper",
+    "pooling",
+    "connection",
+    "connection-pooling",
+    "thrift-pooling",
+    "server-set",
+    "thrift",
+    "load",
+    "balancing"
+  ],
+  "author": "Kapil Joshi <kjoshi1988@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-pool-cluster": "^0.1.0",
+    "node-zookeeper-client": "^0.2.2",
+    "underscore": "^1.8.0"
+  },
+  "devDependencies": {
+    "mocha": ">=2.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/kjoshi1988/thrift-zookeeper-server-set/issues"
+  },
+  "homepage": "https://github.com/kjoshi1988/thrift-zookeeper-server-set#readme"
+}
