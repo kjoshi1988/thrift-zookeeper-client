@@ -15,7 +15,7 @@ $ npm install thrift-zookeeper-client
 ```javascript
 var thrift = require('thrift'),
   myServiceClient = require('./gen-nodejs/Service'),
-  thriftZkClient = require('./../lib/thrift-zookeeper-client.js'),
+  thriftZkClient = require('thrift-zookeeper-client'),
   zkProps = {
       zkUrl:"localhost:2181",
       zkPath: "/com/test/services/qa"
