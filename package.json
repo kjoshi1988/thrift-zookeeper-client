@@ -1,8 +1,8 @@
 {
-  "name": "thrift-zookeeper-server-set",
+  "name": "thrift-zookeeper-client",
   "version": "0.1.0",
   "description": "A module that integrates zookeeper with thrift interfaces with connection pooling logic to make them more robust",
-  "main": "index.js",
+  "main": "lib/thrift-zookeeper-client",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
