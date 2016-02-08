@@ -1,6 +1,6 @@
 {
   "name": "thrift-zookeeper-client",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A module that integrates zookeeper with thrift interfaces with connection pooling logic to make them more robust",
   "main": "lib/thrift-zookeeper-client",
   "scripts": {
@@ -20,17 +20,18 @@
     "server-set",
     "thrift",
     "load",
-    "balancing"
+    "balancing",
+    "multiserver"
   ],
   "author": "Kapil Joshi <kjoshi1988@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "node-pool-cluster": "^0.1.0",
-    "node-zookeeper-client": "^0.2.2",
-    "thrift": "^0.9.3",
-    "underscore": "^1.8.3",
-    "underscore.deep": "^0.5.1",
-    "zookeeper": "^3.4.6"
+    "node-pool-cluster": "~1.0.1",
+    "node-zookeeper-client": "~0.2.2",
+    "thrift": "~0.9.3",
+    "underscore": "~1.8.3",
+    "underscore.deep": "~0.5.1",
+    "zookeeper": "~3.4.7-1"
   },
   "devDependencies": {
     "mocha": ">=2.3.0"
