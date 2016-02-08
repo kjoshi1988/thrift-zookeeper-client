@@ -54,7 +54,7 @@ You can control some of the pooling options, similar to generic node pool.
     thriftZkClient.config({
         max: 5 //max connections in a pool, default is 3,
         min: 1 //min connections in a pool, default is 0,
-        max: 5 //max connections in a pool, default is 3,
+        idleTimeoutMillis: 15000 //max milliseconds a resource can go unused before it should be destroyed (default 20000)
         refreshIdle: true, //boolean that specifies whether idle resources at or below the min threshold
                            //should be destroyed/re-created.  optional (default=true)
         reapIntervalMillis: 2000 //frequency to check for idle resources (default 1000),
