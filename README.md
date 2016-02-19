@@ -36,6 +36,11 @@ var thrift = require('thrift'),
         //callback      
   });
   
+  //to make TFramedTransport 
+  thriftZkClient.getService(zkProps, "myService", myServiceClient, function(thriftMyServiceClient){
+        //callback      
+  }, true);
+  
 ```
 
 ## Config Option

@@ -1,6 +1,6 @@
 {
   "name": "thrift-zookeeper-client",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A module that integrates zookeeper with thrift interfaces with connection pooling logic to make them more robust",
   "main": "lib/thrift-zookeeper-client",
   "scripts": {
